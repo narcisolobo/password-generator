@@ -1,0 +1,33 @@
+body {
+  background-color: #f2e5bc;
+  font-family: monospace;
+}
+
+.content {
+  background-color: white;
+  margin-inline: auto;
+  padding: 2rem;
+  border-radius: .5rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.password {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px dotted rgb(36, 36, 36);
+}
+
+.password .tooltip-text {
+  display: none;
+}
+
+.icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
